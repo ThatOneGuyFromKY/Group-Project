@@ -15,14 +15,20 @@ namespace Group_Prokject
         public Form1()
         {
             InitializeComponent();
+            pictureBox1.Visible = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            pictureBox1.Visible = true;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
             pictureBox1.Visible = false;
         }
